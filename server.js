@@ -21,7 +21,7 @@ app.use(express.json({ limit: '10mb' }));
 app.use(express.static('public'));
 
 //Gemini API key
-const API_KEY = "AIzaSyBYnQi_0ARDIrlIaGw--ETJ6MgpSQgUXDE";
+const API_KEY = 
 
 // Validate API key on startup
 if (!API_KEY || API_KEY === 'your_api_key_here') {
@@ -248,3 +248,4 @@ app.listen(PORT, () => {
 
 //AIzaSyBgBEE437JCVUjjo2fiNe1_P-Ht8CQuOdo
 //"AIzaSyBYnQi_0ARDIrlIaGw--ETJ6MgpSQgUXDE";
+
