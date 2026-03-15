@@ -1,119 +1,87 @@
-# Chatbot Project
+﻿<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Conservational%20Chatbot&fontSize=32&fontColor=ffffff&animation=twinkling&fontAlignY=35"/>
+</div>
 
-This project is a chatbot application built with **Node.js** (server) and **Python** (chatbot logic using Gemini API).  
-It provides an interface for conversational AI and can be extended with custom features.
+# Conservational-Chatbot
+
+Multi-turn conversational chatbot with context awareness and dialogue management using large language models.
 
 ---
 
-## 📂 Project Structure
+## Project Status: âœ… COMPLETE & READY FOR DEPLOYMENT
+
+![GitHub stars](https://img.shields.io/github/stars/Abdul-Insighht/=social)
+![GitHub forks](https://img.shields.io/github/forks/Abdul-Insighht/=social)
+
+---
+
+## ðŸ› ï¸ Tech Stack
+
 ```
-Chatbot/
-├── gemini_chatbot.py       # Python script for chatbot logic
-├── server.js               # Node.js backend server
-├── setup.js                # Setup script
-├── package.json            # Node.js dependencies and scripts
-├── package-lock.json       # Dependency lock file
-└── node_modules/           # Installed Node.js dependencies
+Python, LangChain, LLM, Streamlit
 ```
 
 ---
 
-## 🚀 Features
-- Node.js backend server
-- Python integration (`gemini_chatbot.py`)
-- Uses Google Generative AI (Gemini API)
-- Easy to extend with custom logic
+## ðŸš€ Getting Started
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/Abdul-Insighht/Conservational-Chatbot.git
+cd Conservational-Chatbot
+```
+
+2. **Install dependencies**
+```bash
+pip install -r requirements.txt
+```
+
+3. **Run the project**
+```bash
+python main.py
+```
 
 ---
 
-## 🛠️ Requirements
-Make sure you have installed:
+## â­ Quick Links
 
-- [Node.js](https://nodejs.org/) (v16 or later recommended)
-- [Python 3.8+](https://www.python.org/)
-- `pip` for Python dependencies
-- `npm` for Node.js dependencies
+â­ [Star this repo](https://github.com/Abdul-Insighht/Conservational-Chatbot) â€¢ ðŸ› [Report Bug](https://github.com/Abdul-Insighht/Conservational-Chatbot/issues) â€¢ ðŸ’¡ [Request Feature](https://github.com/Abdul-Insighht/Conservational-Chatbot/issues)
 
 ---
 
-## ⚙️ Installation
-
-1. **Clone or extract the project**
-   ```bash
-   unzip "Chatbot (2).zip"
-   cd Chatbot
-   ```
-
-2. **Install Node.js dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Install Python dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-   *(If `requirements.txt` is missing, manually install required libraries such as `google-generativeai`, `flask`, etc.)*
+Made with â¤ï¸ using Python & AI Technologies â€” Demonstration by **Abdul-Insighht** - Data Science Specialist | AI Agent & Agentic AI Developer
 
 ---
 
-## ▶️ Running the Project
+## ðŸ‘¤ Author
 
-1. **Start the Node.js server**
-   ```bash
-   node server.js
-   ```
+<table>
+<tr>
+<td>
 
-   This will start the backend server at `http://localhost:5000`.
+**Hafiz Abdul Rehman**  
+[Abdul-Insighht](https://github.com/Abdul-Insighht) Â· he/him  
+**Data Science Specialist | AI Agent & Agentic AI Developer**
 
-2. **Run the Python chatbot**
-   ```bash
-   python gemini_chatbot.py
-   ```
+[![GitHub](https://img.shields.io/badge/GitHub-Abdul--Insighht-181717?style=flat-square&logo=github)](https://github.com/Abdul-Insighht)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/hafiz-abdul-rehman-9990ab329/)
 
-3. The chatbot will now be ready to handle requests.
-
----
-
-## 📌 Notes
-- Ensure your **Google Gemini API key** is set in the environment variables before running the chatbot.
-- Example:
-  ```bash
-  export GEMINI_API_KEY="your_api_key_here"
-  ```
+</td>
+</tr>
+</table>
 
 ---
 
-## 🤝 Contributing
-Feel free to fork this repository and improve the chatbot. Pull requests are welcome!
+## ðŸ“„ License
+
+This project is licensed under the **MIT License**.
 
 ---
 
-## 📜 License
-This project is licensed under the MIT License.
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
+</div>
 
-
----
-
-## 📬 Contact
-
-**Hafiz Abdul Rehman**
-
-- 📧 Email: hafizrehman3321@gmail.com
-- 💼 LinkedIn: [Hafiz Abdul Rehman](https://linkedin.com/in/hafiz-abdul-rehman-9990ab329)
-- 🐙 GitHub: [Abdul-Insighht](https://github.com/Abdul-Insighht)
-
----
-
-## 🌟 Show Your Support
-
-If you find this project helpful, please consider:
-
-- ⭐ **Starring** this repository
-- 🔄 **Sharing** with others
-- 🐛 **Reporting** issues
-- 💡 **Suggesting** improvements
-
----
-
-<p align="center">Made with ❤️ by <b>Hafiz Abdul Rehman</b></p>
+<div align="center">
+  <sub>â­ï¸ From <a href="https://github.com/Abdul-Insighht">Abdul-Insighht</a> â€” Passionate about AI, ML, and solving real-world problems</sub>
+</div>
